@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 text-white px-6 py-3 rounded-lg font-medium shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-600 border-2 border-primary-200 px-6 py-3 rounded-lg font-medium hover:bg-primary-50 hover:border-primary-300 transition-all duration-200;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 hover:border-gray-300 transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-xl border border-gray-100 transition-all duration-200;
+  }
+  
+  .card-hover {
+    @apply transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent;
+  }
+  
+  .drag-ghost {
+    @apply opacity-50 transform scale-95 transition-all duration-150;
+  }
+  
+  .drop-zone {
+    @apply border-2 border-dashed border-primary-300 bg-primary-50 rounded-lg transition-all duration-200;
+  }
+  
+  .drop-zone-active {
+    @apply border-primary-500 bg-primary-100;
+  }
+  
+  .element-selected {
+    @apply ring-2 ring-primary-500 ring-offset-2 bg-primary-50;
+  }
+  
+  .element-hover {
+    @apply ring-2 ring-primary-300 ring-offset-1 transition-all duration-150;
+  }
+  
+  .device-frame {
+    @apply rounded-2xl shadow-2xl bg-white border-8 border-gray-200;
+  }
+  
+  .device-frame-mobile {
+    @apply w-80 h-[640px] rounded-3xl border-gray-800 bg-gray-800 p-2;
+  }
+  
+  .device-frame-tablet {
+    @apply w-[768px] h-[576px] rounded-xl border-gray-600 bg-gray-600 p-3;
+  }
+  
+  .device-frame-desktop {
+    @apply w-full h-[600px] rounded-lg border-gray-400 bg-gray-400 p-1;
+  }
+  
+  .editor-panel {
+    @apply bg-white border-r border-gray-200 shadow-lg;
+  }
+  
+  .element-palette-item {
+    @apply flex items-center gap-3 p-3 rounded-lg border-2 border-gray-200 bg-white hover:bg-gray-50 hover:border-primary-300 cursor-grab active:cursor-grabbing transition-all duration-200;
+  }
+  
+  .element-palette-item:hover {
+    @apply transform scale-105 shadow-md;
+  }
+  
+  .properties-panel {
+    @apply bg-white border-l border-gray-200 shadow-lg;
+  }
+  
+  .canvas-area {
+    @apply bg-gray-100 min-h-screen relative overflow-auto;
+  }
+  
+  .canvas-grid {
+    background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  
+  .template-card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-xl border border-gray-100 overflow-hidden transition-all duration-200 cursor-pointer;
+  }
+  
+  .template-card:hover {
+    @apply transform scale-105 border-primary-300;
+  }
+  
+  .skeleton {
+    @apply animate-pulse bg-gray-200 rounded;
+  }
+  
+  .skeleton-text {
+    @apply h-4 bg-gray-200 rounded animate-pulse;
+  }
+  
+  .skeleton-button {
+    @apply h-10 bg-gray-200 rounded-lg animate-pulse;
+  }
+  
+  .skeleton-image {
+    @apply aspect-video bg-gray-200 rounded-lg animate-pulse;
+  }
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg border;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-accent-400 text-gray-800;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-red-400 text-gray-800;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white border-yellow-400 text-gray-800;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-blue-400 text-gray-800;
+}
+
+.Toastify__progress-bar--success {
+  @apply bg-accent-400;
+}
+
+.Toastify__progress-bar--error {
+  @apply bg-red-400;
+}
+
+.Toastify__progress-bar--warning {
+  @apply bg-yellow-400;
+}
+
+.Toastify__progress-bar--info {
+  @apply bg-blue-400;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "Id": 1,
+    "name": "Modern Portfolio",
+    "category": "portfolio",
+    "description": "Clean and modern portfolio template perfect for creatives",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+    "elements": [
+      {
+        "id": "hero-template",
+        "type": "text",
+        "content": "Your Name Here",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "tagline-template",
+        "type": "text",
+        "content": "Creative Designer & Developer",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "marginTop": "1rem"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "Your Portfolio",
+      "description": "Showcase your creative work",
+      "favicon": "/favicon.ico"
+    }
+  },
+  {
+    "Id": 2,
+    "name": "Product Landing",
+    "category": "landing",
+    "description": "High-converting landing page template for product launches",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    "elements": [
+      {
+        "id": "hero-landing",
+        "type": "text",
+        "content": "Launch Your Product",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "cta-landing",
+        "type": "button",
+        "content": "Get Started",
+        "style": {
+          "backgroundColor": "#5b21b6",
+          "color": "white",
+          "padding": "0.75rem 1.5rem",
+          "borderRadius": "0.5rem"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "Product Launch",
+      "description": "Revolutionary product landing page",
+      "favicon": "/favicon.ico"
+    }
+  },
+  {
+    "Id": 3,
+    "name": "Link in Bio",
+    "category": "link-in-bio",
+    "description": "Perfect for social media profiles and personal branding",
+    "thumbnail": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
+    "elements": [
+      {
+        "id": "profile-template",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
+        "style": {
+          "width": "150px",
+          "height": "150px",
+          "borderRadius": "50%"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "username-template",
+        "type": "text",
+        "content": "@yourusername",
+        "style": {
+          "fontSize": "1.5rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "My Links",
+      "description": "All my important links in one place",
+      "favicon": "/favicon.ico"
+    }
+  },
+  {
+    "Id": 4,
+    "name": "Personal Blog",
+    "category": "blog",
+    "description": "Elegant blog template for writers and content creators",
+    "thumbnail": "https://images.unsplash.com/photo-1486312338219-ce68e2c22b51?w=400&h=300&fit=crop",
+    "elements": [
+      {
+        "id": "blog-title",
+        "type": "text",
+        "content": "My Blog",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "blog-subtitle",
+        "type": "text",
+        "content": "Thoughts, stories, and ideas",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#6b7280"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "My Personal Blog",
+      "description": "Sharing thoughts and stories",
+      "favicon": "/favicon.ico"
+    }
+  },
+  {
+    "Id": 5,
+    "name": "Product Showcase",
+    "category": "product",
+    "description": "Beautiful product showcase template for e-commerce",
+    "thumbnail": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
+    "elements": [
+      {
+        "id": "product-hero",
+        "type": "text",
+        "content": "Premium Product",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "product-image",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop",
+        "style": {
+          "width": "100%",
+          "height": "400px",
+          "objectFit": "cover",
+          "borderRadius": "0.5rem"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "Premium Product Showcase",
+      "description": "Showcase your products beautifully",
+      "favicon": "/favicon.ico"
+    }
+  }
+]

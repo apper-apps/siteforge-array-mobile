@@ -1,0 +1,157 @@
+[
+  {
+    "Id": 1,
+    "name": "My Portfolio",
+    "domain": "myportfolio.siteforge.com",
+    "template": "portfolio",
+    "status": "live",
+    "elements": [
+      {
+        "id": "hero-1",
+        "type": "text",
+        "content": "Welcome to My Portfolio",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {
+          "mobile": { "fontSize": "2rem" },
+          "tablet": { "fontSize": "2.5rem" },
+          "desktop": { "fontSize": "3rem" }
+        }
+      },
+      {
+        "id": "about-1",
+        "type": "text",
+        "content": "I'm a creative designer passionate about building beautiful digital experiences.",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "marginTop": "1rem"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      },
+      {
+        "id": "cta-1",
+        "type": "button",
+        "content": "View My Work",
+        "style": {
+          "backgroundColor": "#5b21b6",
+          "color": "white",
+          "padding": "0.75rem 1.5rem",
+          "borderRadius": "0.5rem",
+          "fontSize": "1rem",
+          "fontWeight": "500"
+        },
+        "position": { "x": 0, "y": 2 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "My Portfolio - Creative Designer",
+      "description": "Showcasing my best creative work and design projects",
+      "favicon": "/favicon.ico",
+      "analytics": "",
+      "customHead": "",
+      "customBody": ""
+    },
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-20T14:45:00Z",
+    "publishedAt": "2024-01-20T14:45:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Product Landing",
+    "domain": "product.siteforge.com",
+    "template": "landing",
+    "status": "draft",
+    "elements": [
+      {
+        "id": "hero-2",
+        "type": "text",
+        "content": "Revolutionary Product Launch",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "features-1",
+        "type": "text",
+        "content": "Discover the features that make our product stand out from the competition.",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#6b7280"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "Revolutionary Product - Launch Page",
+      "description": "Introducing our groundbreaking product",
+      "favicon": "/favicon.ico",
+      "analytics": "",
+      "customHead": "",
+      "customBody": ""
+    },
+    "createdAt": "2024-01-18T09:15:00Z",
+    "updatedAt": "2024-01-19T16:20:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Link in Bio",
+    "domain": "links.siteforge.com",
+    "template": "link-in-bio",
+    "status": "archived",
+    "elements": [
+      {
+        "id": "profile-1",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
+        "style": {
+          "width": "150px",
+          "height": "150px",
+          "borderRadius": "50%",
+          "marginBottom": "1rem"
+        },
+        "position": { "x": 0, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "bio-1",
+        "type": "text",
+        "content": "@username",
+        "style": {
+          "fontSize": "1.5rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      }
+    ],
+    "settings": {
+      "title": "My Links - @username",
+      "description": "All my important links in one place",
+      "favicon": "/favicon.ico",
+      "analytics": "",
+      "customHead": "",
+      "customBody": ""
+    },
+    "createdAt": "2024-01-10T12:00:00Z",
+    "updatedAt": "2024-01-12T08:30:00Z",
+    "archivedAt": "2024-01-22T11:15:00Z"
+  }
+]
