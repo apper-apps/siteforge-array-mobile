@@ -7,35 +7,230 @@
     "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
     "elements": [
       {
-        "id": "hero-template",
+        "id": "header-nav",
         "type": "text",
-        "content": "Your Name Here",
+        "content": "John Doe | Portfolio",
         "style": {
-          "fontSize": "3rem",
-          "fontWeight": "bold",
-          "textAlign": "center",
-          "color": "#1f2937"
+          "fontSize": "1.25rem",
+          "fontWeight": "600",
+          "color": "#1f2937",
+          "padding": "1rem 2rem",
+          "backgroundColor": "#ffffff",
+          "borderBottom": "1px solid #e5e7eb",
+          "position": "sticky",
+          "top": "0",
+          "zIndex": "10"
         },
         "position": { "x": 0, "y": 0 },
         "responsive": {}
       },
       {
-        "id": "tagline-template",
+        "id": "nav-menu",
+        "type": "text",
+        "content": "Home | About | Portfolio | Contact",
+        "style": {
+          "fontSize": "1rem",
+          "color": "#6b7280",
+          "textAlign": "right",
+          "padding": "1rem 2rem",
+          "backgroundColor": "#ffffff",
+          "position": "absolute",
+          "top": "0",
+          "right": "0"
+        },
+        "position": { "x": 1, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-section",
         "type": "text",
         "content": "Creative Designer & Developer",
         "style": {
-          "fontSize": "1.125rem",
+          "fontSize": "3.5rem",
+          "fontWeight": "bold",
           "textAlign": "center",
-          "color": "#6b7280",
-          "marginTop": "1rem"
+          "color": "#1f2937",
+          "padding": "6rem 2rem",
+          "backgroundColor": "#f9fafb",
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "color": "#ffffff"
         },
         "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-subtitle",
+        "type": "text",
+        "content": "I create beautiful digital experiences that make a difference",
+        "style": {
+          "fontSize": "1.25rem",
+          "textAlign": "center",
+          "color": "#e5e7eb",
+          "marginTop": "1rem",
+          "padding": "0 2rem 4rem"
+        },
+        "position": { "x": 0, "y": 2 },
+        "responsive": {}
+      },
+      {
+        "id": "about-section",
+        "type": "text",
+        "content": "About Me",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem"
+        },
+        "position": { "x": 0, "y": 3 },
+        "responsive": {}
+      },
+      {
+        "id": "about-content",
+        "type": "text",
+        "content": "With over 5 years of experience in design and development, I specialize in creating user-centered digital solutions. My passion lies in crafting beautiful, functional websites that tell compelling stories and drive results.",
+        "style": {
+          "fontSize": "1.125rem",
+          "lineHeight": "1.75",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "maxWidth": "800px",
+          "margin": "0 auto",
+          "padding": "0 2rem"
+        },
+        "position": { "x": 0, "y": 4 },
+        "responsive": {}
+      },
+      {
+        "id": "skills-section",
+        "type": "text",
+        "content": "Skills & Expertise",
+        "style": {
+          "fontSize": "2rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem"
+        },
+        "position": { "x": 0, "y": 5 },
+        "responsive": {}
+      },
+      {
+        "id": "skills-grid",
+        "type": "text",
+        "content": "UI/UX Design • React Development • Brand Identity • Photography • Motion Graphics • Web Development",
+        "style": {
+          "fontSize": "1rem",
+          "textAlign": "center",
+          "color": "#5b21b6",
+          "padding": "0 2rem",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "1rem",
+          "justifyContent": "center"
+        },
+        "position": { "x": 0, "y": 6 },
+        "responsive": {}
+      },
+      {
+        "id": "portfolio-section",
+        "type": "text",
+        "content": "Featured Work",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#f9fafb"
+        },
+        "position": { "x": 0, "y": 7 },
+        "responsive": {}
+      },
+      {
+        "id": "portfolio-grid",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+        "style": {
+          "width": "100%",
+          "maxWidth": "1200px",
+          "height": "400px",
+          "objectFit": "cover",
+          "borderRadius": "1rem",
+          "margin": "2rem auto",
+          "display": "block",
+          "boxShadow": "0 20px 25px -5px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 8 },
+        "responsive": {}
+      },
+      {
+        "id": "contact-section",
+        "type": "text",
+        "content": "Let's Work Together",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#ffffff",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#1f2937"
+        },
+        "position": { "x": 0, "y": 9 },
+        "responsive": {}
+      },
+      {
+        "id": "contact-info",
+        "type": "text",
+        "content": "Ready to bring your ideas to life? Let's discuss your next project.",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#9ca3af",
+          "padding": "0 2rem 2rem"
+        },
+        "position": { "x": 0, "y": 10 },
+        "responsive": {}
+      },
+      {
+        "id": "contact-cta",
+        "type": "button",
+        "content": "Get In Touch",
+        "style": {
+          "backgroundColor": "#5b21b6",
+          "color": "white",
+          "padding": "1rem 2rem",
+          "borderRadius": "0.5rem",
+          "fontSize": "1.125rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0 auto 4rem",
+          "display": "block"
+        },
+        "position": { "x": 0, "y": 11 },
+        "responsive": {}
+      },
+      {
+        "id": "footer",
+        "type": "text",
+        "content": "© 2024 John Doe. All rights reserved. | Follow me on social media",
+        "style": {
+          "fontSize": "0.875rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "2rem",
+          "backgroundColor": "#f9fafb",
+          "borderTop": "1px solid #e5e7eb"
+        },
+        "position": { "x": 0, "y": 12 },
         "responsive": {}
       }
     ],
     "settings": {
-      "title": "Your Portfolio",
-      "description": "Showcase your creative work",
+      "title": "John Doe - Creative Portfolio",
+      "description": "Portfolio of creative designer and developer John Doe",
       "favicon": "/favicon.ico"
     }
   },
@@ -47,35 +242,229 @@
     "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
     "elements": [
       {
-        "id": "hero-landing",
+        "id": "header-nav",
         "type": "text",
-        "content": "Launch Your Product",
+        "content": "ProductName",
         "style": {
-          "fontSize": "3rem",
+          "fontSize": "1.5rem",
           "fontWeight": "bold",
-          "textAlign": "center",
-          "color": "#1f2937"
+          "color": "#5b21b6",
+          "padding": "1rem 2rem",
+          "backgroundColor": "#ffffff",
+          "borderBottom": "1px solid #e5e7eb",
+          "position": "sticky",
+          "top": "0",
+          "zIndex": "10"
         },
         "position": { "x": 0, "y": 0 },
         "responsive": {}
       },
       {
-        "id": "cta-landing",
+        "id": "nav-links",
+        "type": "text",
+        "content": "Features | Pricing | About | Contact",
+        "style": {
+          "fontSize": "1rem",
+          "color": "#6b7280",
+          "textAlign": "right",
+          "padding": "1rem 2rem",
+          "backgroundColor": "#ffffff",
+          "position": "absolute",
+          "top": "0",
+          "right": "0"
+        },
+        "position": { "x": 1, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-headline",
+        "type": "text",
+        "content": "Revolutionary Product That Changes Everything",
+        "style": {
+          "fontSize": "4rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "6rem 2rem 2rem",
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "color": "#ffffff"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-subheadline",
+        "type": "text",
+        "content": "Join thousands of satisfied customers who have transformed their workflow with our innovative solution",
+        "style": {
+          "fontSize": "1.25rem",
+          "textAlign": "center",
+          "color": "#e5e7eb",
+          "padding": "0 2rem 3rem",
+          "maxWidth": "800px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 2 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-cta",
         "type": "button",
-        "content": "Get Started",
+        "content": "Start Free Trial",
+        "style": {
+          "backgroundColor": "#10b981",
+          "color": "white",
+          "padding": "1rem 3rem",
+          "borderRadius": "0.75rem",
+          "fontSize": "1.25rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0 auto 6rem",
+          "display": "block",
+          "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 3 },
+        "responsive": {}
+      },
+      {
+        "id": "features-section",
+        "type": "text",
+        "content": "Why Choose Our Product?",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#ffffff"
+        },
+        "position": { "x": 0, "y": 4 },
+        "responsive": {}
+      },
+      {
+        "id": "features-grid",
+        "type": "text",
+        "content": "✨ Easy Setup | 🚀 Lightning Fast | 🔒 Secure & Reliable | 📊 Detailed Analytics | 🎯 Smart Automation | 💬 24/7 Support",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "2rem",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(250px, 1fr))",
+          "gap": "2rem",
+          "maxWidth": "1200px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 5 },
+        "responsive": {}
+      },
+      {
+        "id": "testimonials-section",
+        "type": "text",
+        "content": "What Our Customers Say",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#f9fafb"
+        },
+        "position": { "x": 0, "y": 6 },
+        "responsive": {}
+      },
+      {
+        "id": "testimonial-content",
+        "type": "text",
+        "content": "\"This product has completely transformed how we work. The time savings alone have paid for itself ten times over.\" - Sarah Johnson, CEO",
+        "style": {
+          "fontSize": "1.25rem",
+          "fontStyle": "italic",
+          "textAlign": "center",
+          "color": "#4b5563",
+          "padding": "2rem",
+          "maxWidth": "800px",
+          "margin": "0 auto",
+          "backgroundColor": "#ffffff",
+          "borderRadius": "1rem",
+          "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 7 },
+        "responsive": {}
+      },
+      {
+        "id": "pricing-section",
+        "type": "text",
+        "content": "Simple, Transparent Pricing",
+        "style": {
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#ffffff"
+        },
+        "position": { "x": 0, "y": 8 },
+        "responsive": {}
+      },
+      {
+        "id": "pricing-card",
+        "type": "text",
+        "content": "Pro Plan - $29/month | Everything you need to get started | 14-day free trial",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "3rem 2rem",
+          "backgroundColor": "#f8fafc",
+          "border": "2px solid #5b21b6",
+          "borderRadius": "1rem",
+          "maxWidth": "400px",
+          "margin": "2rem auto"
+        },
+        "position": { "x": 0, "y": 9 },
+        "responsive": {}
+      },
+      {
+        "id": "final-cta",
+        "type": "button",
+        "content": "Get Started Today",
         "style": {
           "backgroundColor": "#5b21b6",
           "color": "white",
-          "padding": "0.75rem 1.5rem",
-          "borderRadius": "0.5rem"
+          "padding": "1rem 3rem",
+          "borderRadius": "0.75rem",
+          "fontSize": "1.25rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "2rem auto 4rem",
+          "display": "block"
         },
-        "position": { "x": 0, "y": 1 },
+        "position": { "x": 0, "y": 10 },
+        "responsive": {}
+      },
+      {
+        "id": "footer",
+        "type": "text",
+        "content": "© 2024 ProductName. All rights reserved. | Privacy Policy | Terms of Service",
+        "style": {
+          "fontSize": "0.875rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "3rem 2rem",
+          "backgroundColor": "#1f2937",
+          "color": "#9ca3af"
+        },
+        "position": { "x": 0, "y": 11 },
         "responsive": {}
       }
     ],
     "settings": {
-      "title": "Product Launch",
-      "description": "Revolutionary product landing page",
+      "title": "Revolutionary Product Launch",
+      "description": "Transform your workflow with our innovative solution",
       "favicon": "/favicon.ico"
     }
   },
@@ -87,33 +476,212 @@
     "thumbnail": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
     "elements": [
       {
-        "id": "profile-template",
-        "type": "image",
-        "content": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
+        "id": "header-section",
+        "type": "text",
+        "content": "✨ @yourusername",
         "style": {
-          "width": "150px",
-          "height": "150px",
-          "borderRadius": "50%"
+          "fontSize": "1.5rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "2rem 1rem 1rem",
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "color": "#ffffff"
         },
         "position": { "x": 0, "y": 0 },
         "responsive": {}
       },
       {
-        "id": "username-template",
+        "id": "profile-image",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
+        "style": {
+          "width": "120px",
+          "height": "120px",
+          "borderRadius": "50%",
+          "margin": "0 auto",
+          "display": "block",
+          "border": "4px solid #ffffff",
+          "boxShadow": "0 8px 16px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      },
+      {
+        "id": "profile-name",
         "type": "text",
-        "content": "@yourusername",
+        "content": "Alex Johnson",
+        "style": {
+          "fontSize": "2rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "1rem 1rem 0.5rem"
+        },
+        "position": { "x": 0, "y": 2 },
+        "responsive": {}
+      },
+      {
+        "id": "profile-bio",
+        "type": "text",
+        "content": "Content Creator & Digital Nomad 🌍 | Sharing my journey through photography and travel ✈️",
+        "style": {
+          "fontSize": "1rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "0 2rem 2rem",
+          "lineHeight": "1.6"
+        },
+        "position": { "x": 0, "y": 3 },
+        "responsive": {}
+      },
+      {
+        "id": "link-youtube",
+        "type": "button",
+        "content": "🎥 My YouTube Channel",
+        "style": {
+          "backgroundColor": "#ff0000",
+          "color": "white",
+          "padding": "1rem 2rem",
+          "borderRadius": "1rem",
+          "fontSize": "1.125rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0.5rem auto",
+          "display": "block",
+          "width": "90%",
+          "maxWidth": "300px"
+        },
+        "position": { "x": 0, "y": 4 },
+        "responsive": {}
+      },
+      {
+        "id": "link-instagram",
+        "type": "button",
+        "content": "📸 Follow on Instagram",
+        "style": {
+          "background": "linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)",
+          "color": "white",
+          "padding": "1rem 2rem",
+          "borderRadius": "1rem",
+          "fontSize": "1.125rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0.5rem auto",
+          "display": "block",
+          "width": "90%",
+          "maxWidth": "300px"
+        },
+        "position": { "x": 0, "y": 5 },
+        "responsive": {}
+      },
+      {
+        "id": "link-blog",
+        "type": "button",
+        "content": "📝 Read My Blog",
+        "style": {
+          "backgroundColor": "#5b21b6",
+          "color": "white",
+          "padding": "1rem 2rem",
+          "borderRadius": "1rem",
+          "fontSize": "1.125rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0.5rem auto",
+          "display": "block",
+          "width": "90%",
+          "maxWidth": "300px"
+        },
+        "position": { "x": 0, "y": 6 },
+        "responsive": {}
+      },
+      {
+        "id": "link-newsletter",
+        "type": "button",
+        "content": "📧 Join My Newsletter",
+        "style": {
+          "backgroundColor": "#10b981",
+          "color": "white",
+          "padding": "1rem 2rem",
+          "borderRadius": "1rem",
+          "fontSize": "1.125rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0.5rem auto",
+          "display": "block",
+          "width": "90%",
+          "maxWidth": "300px"
+        },
+        "position": { "x": 0, "y": 7 },
+        "responsive": {}
+      },
+      {
+        "id": "featured-content",
+        "type": "text",
+        "content": "Latest Content",
         "style": {
           "fontSize": "1.5rem",
           "fontWeight": "600",
           "textAlign": "center",
-          "color": "#1f2937"
+          "color": "#1f2937",
+          "padding": "3rem 1rem 1rem"
         },
-        "position": { "x": 0, "y": 1 },
+        "position": { "x": 0, "y": 8 },
+        "responsive": {}
+      },
+      {
+        "id": "content-preview",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=300&h=200&fit=crop",
+        "style": {
+          "width": "90%",
+          "maxWidth": "300px",
+          "height": "200px",
+          "objectFit": "cover",
+          "borderRadius": "1rem",
+          "margin": "1rem auto",
+          "display": "block",
+          "boxShadow": "0 4px 6px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 9 },
+        "responsive": {}
+      },
+      {
+        "id": "content-description",
+        "type": "text",
+        "content": "Check out my latest adventure in Bali! 🌴 Click the link above to see the full photo series.",
+        "style": {
+          "fontSize": "0.95rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "0 2rem 2rem",
+          "fontStyle": "italic"
+        },
+        "position": { "x": 0, "y": 10 },
+        "responsive": {}
+      },
+      {
+        "id": "footer-links",
+        "type": "text",
+        "content": "📧 hello@alexjohnson.com | 🌐 www.alexjohnson.com",
+        "style": {
+          "fontSize": "0.875rem",
+          "textAlign": "center",
+          "color": "#9ca3af",
+          "padding": "2rem 1rem",
+          "backgroundColor": "#f9fafb",
+          "borderTop": "1px solid #e5e7eb"
+        },
+        "position": { "x": 0, "y": 11 },
         "responsive": {}
       }
     ],
     "settings": {
-      "title": "My Links",
+      "title": "Alex Johnson - Links",
       "description": "All my important links in one place",
       "favicon": "/favicon.ico"
     }
@@ -126,34 +694,280 @@
     "thumbnail": "https://images.unsplash.com/photo-1486312338219-ce68e2c22b51?w=400&h=300&fit=crop",
     "elements": [
       {
-        "id": "blog-title",
+        "id": "header-nav",
         "type": "text",
-        "content": "My Blog",
+        "content": "The Mindful Writer",
         "style": {
-          "fontSize": "2.5rem",
+          "fontSize": "1.75rem",
           "fontWeight": "bold",
-          "textAlign": "center",
-          "color": "#1f2937"
+          "color": "#1f2937",
+          "padding": "1.5rem 2rem",
+          "backgroundColor": "#ffffff",
+          "borderBottom": "1px solid #e5e7eb"
         },
         "position": { "x": 0, "y": 0 },
         "responsive": {}
       },
       {
-        "id": "blog-subtitle",
+        "id": "nav-menu",
         "type": "text",
-        "content": "Thoughts, stories, and ideas",
+        "content": "Home | Articles | About | Subscribe",
+        "style": {
+          "fontSize": "1rem",
+          "color": "#6b7280",
+          "textAlign": "right",
+          "padding": "1.5rem 2rem",
+          "backgroundColor": "#ffffff",
+          "position": "absolute",
+          "top": "0",
+          "right": "0"
+        },
+        "position": { "x": 1, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-section",
+        "type": "text",
+        "content": "Stories That Matter",
+        "style": {
+          "fontSize": "4rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#f9fafb"
+        },
+        "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-subtitle",
+        "type": "text",
+        "content": "Exploring life, creativity, and the human experience through thoughtful writing",
+        "style": {
+          "fontSize": "1.25rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "0 2rem 4rem",
+          "maxWidth": "800px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 2 },
+        "responsive": {}
+      },
+      {
+        "id": "featured-post-title",
+        "type": "text",
+        "content": "Featured Article",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "3rem 2rem 2rem",
+          "backgroundColor": "#ffffff"
+        },
+        "position": { "x": 0, "y": 3 },
+        "responsive": {}
+      },
+      {
+        "id": "featured-post-image",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1486312338219-ce68e2c22b51?w=800&h=400&fit=crop",
+        "style": {
+          "width": "100%",
+          "maxWidth": "800px",
+          "height": "400px",
+          "objectFit": "cover",
+          "borderRadius": "1rem",
+          "margin": "0 auto",
+          "display": "block",
+          "boxShadow": "0 10px 25px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 4 },
+        "responsive": {}
+      },
+      {
+        "id": "featured-post-excerpt",
+        "type": "text",
+        "content": "The Art of Mindful Living in a Digital World",
+        "style": {
+          "fontSize": "1.75rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "2rem 2rem 1rem",
+          "maxWidth": "800px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 5 },
+        "responsive": {}
+      },
+      {
+        "id": "featured-post-summary",
+        "type": "text",
+        "content": "In our hyperconnected world, finding moments of genuine peace and clarity has become both more challenging and more essential than ever. This piece explores practical strategies for cultivating mindfulness in daily life...",
+        "style": {
+          "fontSize": "1.125rem",
+          "lineHeight": "1.75",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "0 2rem 2rem",
+          "maxWidth": "800px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 6 },
+        "responsive": {}
+      },
+      {
+        "id": "read-more-btn",
+        "type": "button",
+        "content": "Read Full Article",
+        "style": {
+          "backgroundColor": "#5b21b6",
+          "color": "white",
+          "padding": "0.75rem 2rem",
+          "borderRadius": "0.5rem",
+          "fontSize": "1rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "1rem auto 3rem",
+          "display": "block"
+        },
+        "position": { "x": 0, "y": 7 },
+        "responsive": {}
+      },
+      {
+        "id": "recent-posts-title",
+        "type": "text",
+        "content": "Recent Articles",
+        "style": {
+          "fontSize": "2rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "3rem 2rem 2rem",
+          "backgroundColor": "#f9fafb"
+        },
+        "position": { "x": 0, "y": 8 },
+        "responsive": {}
+      },
+      {
+        "id": "recent-posts-list",
+        "type": "text",
+        "content": "• Finding Balance in Creative Work | • The Power of Daily Journaling | • Lessons from a Digital Detox | • Building Authentic Connections",
+        "style": {
+          "fontSize": "1.125rem",
+          "color": "#4b5563",
+          "padding": "1rem 2rem",
+          "maxWidth": "600px",
+          "margin": "0 auto",
+          "lineHeight": "2"
+        },
+        "position": { "x": 0, "y": 9 },
+        "responsive": {}
+      },
+      {
+        "id": "categories-section",
+        "type": "text",
+        "content": "Explore by Category",
+        "style": {
+          "fontSize": "2rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "3rem 2rem 2rem",
+          "backgroundColor": "#ffffff"
+        },
+        "position": { "x": 0, "y": 10 },
+        "responsive": {}
+      },
+      {
+        "id": "categories-grid",
+        "type": "text",
+        "content": "Mindfulness • Creativity • Productivity • Travel • Technology • Lifestyle",
+        "style": {
+          "fontSize": "1rem",
+          "textAlign": "center",
+          "color": "#5b21b6",
+          "padding": "1rem 2rem",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "1rem",
+          "justifyContent": "center"
+        },
+        "position": { "x": 0, "y": 11 },
+        "responsive": {}
+      },
+      {
+        "id": "newsletter-section",
+        "type": "text",
+        "content": "Stay Updated",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#ffffff",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#1f2937"
+        },
+        "position": { "x": 0, "y": 12 },
+        "responsive": {}
+      },
+      {
+        "id": "newsletter-text",
+        "type": "text",
+        "content": "Get new articles delivered directly to your inbox. No spam, just thoughtful content.",
         "style": {
           "fontSize": "1.125rem",
           "textAlign": "center",
-          "color": "#6b7280"
+          "color": "#9ca3af",
+          "padding": "0 2rem 2rem",
+          "maxWidth": "600px",
+          "margin": "0 auto"
         },
-        "position": { "x": 0, "y": 1 },
+        "position": { "x": 0, "y": 13 },
+        "responsive": {}
+      },
+      {
+        "id": "newsletter-cta",
+        "type": "button",
+        "content": "Subscribe to Newsletter",
+        "style": {
+          "backgroundColor": "#10b981",
+          "color": "white",
+          "padding": "1rem 2rem",
+          "borderRadius": "0.5rem",
+          "fontSize": "1.125rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "1rem auto 4rem",
+          "display": "block"
+        },
+        "position": { "x": 0, "y": 14 },
+        "responsive": {}
+      },
+      {
+        "id": "footer",
+        "type": "text",
+        "content": "© 2024 The Mindful Writer. All rights reserved. | Privacy Policy | Contact",
+        "style": {
+          "fontSize": "0.875rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "2rem",
+          "backgroundColor": "#f9fafb",
+          "borderTop": "1px solid #e5e7eb"
+        },
+        "position": { "x": 0, "y": 15 },
         "responsive": {}
       }
     ],
     "settings": {
-      "title": "My Personal Blog",
-      "description": "Sharing thoughts and stories",
+      "title": "The Mindful Writer - Personal Blog",
+      "description": "Thoughtful articles about life, creativity, and mindful living",
       "favicon": "/favicon.ico"
     }
   },
@@ -165,35 +979,309 @@
     "thumbnail": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
     "elements": [
       {
-        "id": "product-hero",
+        "id": "header-nav",
         "type": "text",
-        "content": "Premium Product",
+        "content": "LUXE PRODUCTS",
         "style": {
-          "fontSize": "3rem",
+          "fontSize": "1.5rem",
           "fontWeight": "bold",
-          "textAlign": "center",
-          "color": "#1f2937"
+          "color": "#1f2937",
+          "padding": "1.5rem 2rem",
+          "backgroundColor": "#ffffff",
+          "borderBottom": "1px solid #e5e7eb",
+          "letterSpacing": "0.05em"
         },
         "position": { "x": 0, "y": 0 },
         "responsive": {}
       },
       {
-        "id": "product-image",
-        "type": "image",
-        "content": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop",
+        "id": "nav-links",
+        "type": "text",
+        "content": "Products | About | Reviews | Contact | Cart",
         "style": {
-          "width": "100%",
-          "height": "400px",
-          "objectFit": "cover",
-          "borderRadius": "0.5rem"
+          "fontSize": "1rem",
+          "color": "#6b7280",
+          "textAlign": "right",
+          "padding": "1.5rem 2rem",
+          "backgroundColor": "#ffffff",
+          "position": "absolute",
+          "top": "0",
+          "right": "0"
+        },
+        "position": { "x": 1, "y": 0 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-headline",
+        "type": "text",
+        "content": "Premium Products, Exceptional Quality",
+        "style": {
+          "fontSize": "3.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "5rem 2rem 2rem",
+          "backgroundColor": "#f9fafb"
         },
         "position": { "x": 0, "y": 1 },
+        "responsive": {}
+      },
+      {
+        "id": "hero-subtext",
+        "type": "text",
+        "content": "Discover our curated collection of luxury items designed for the modern lifestyle",
+        "style": {
+          "fontSize": "1.25rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "0 2rem 4rem",
+          "maxWidth": "800px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 2 },
+        "responsive": {}
+      },
+      {
+        "id": "featured-product-title",
+        "type": "text",
+        "content": "Featured Product",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#ffffff"
+        },
+        "position": { "x": 0, "y": 3 },
+        "responsive": {}
+      },
+      {
+        "id": "product-image",
+        "type": "image",
+        "content": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
+        "style": {
+          "width": "500px",
+          "height": "500px",
+          "objectFit": "cover",
+          "borderRadius": "1rem",
+          "margin": "0 auto",
+          "display": "block",
+          "boxShadow": "0 20px 25px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 4 },
+        "responsive": {}
+      },
+      {
+        "id": "product-name",
+        "type": "text",
+        "content": "Premium Wireless Headphones",
+        "style": {
+          "fontSize": "2rem",
+          "fontWeight": "600",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "2rem 2rem 1rem"
+        },
+        "position": { "x": 0, "y": 5 },
+        "responsive": {}
+      },
+      {
+        "id": "product-price",
+        "type": "text",
+        "content": "$299.99",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#5b21b6",
+          "padding": "0 2rem 1rem"
+        },
+        "position": { "x": 0, "y": 6 },
+        "responsive": {}
+      },
+      {
+        "id": "product-description",
+        "type": "text",
+        "content": "Experience unparalleled audio quality with our flagship wireless headphones. Premium materials, exceptional sound, and all-day comfort.",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "0 2rem 2rem",
+          "maxWidth": "600px",
+          "margin": "0 auto",
+          "lineHeight": "1.6"
+        },
+        "position": { "x": 0, "y": 7 },
+        "responsive": {}
+      },
+      {
+        "id": "add-to-cart-btn",
+        "type": "button",
+        "content": "Add to Cart",
+        "style": {
+          "backgroundColor": "#5b21b6",
+          "color": "white",
+          "padding": "1rem 3rem",
+          "borderRadius": "0.75rem",
+          "fontSize": "1.25rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "1rem auto 3rem",
+          "display": "block"
+        },
+        "position": { "x": 0, "y": 8 },
+        "responsive": {}
+      },
+      {
+        "id": "features-section",
+        "type": "text",
+        "content": "Why Choose Our Products?",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#f9fafb"
+        },
+        "position": { "x": 0, "y": 9 },
+        "responsive": {}
+      },
+      {
+        "id": "features-list",
+        "type": "text",
+        "content": "🎵 Crystal Clear Audio | ⚡ 30-Hour Battery Life | 🛡️ Premium Build Quality | 🎧 Noise Cancellation | 📱 Smart Connect | ✨ Luxury Design",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#4b5563",
+          "padding": "2rem",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(250px, 1fr))",
+          "gap": "2rem",
+          "maxWidth": "1000px",
+          "margin": "0 auto"
+        },
+        "position": { "x": 0, "y": 10 },
+        "responsive": {}
+      },
+      {
+        "id": "testimonials-title",
+        "type": "text",
+        "content": "Customer Reviews",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#1f2937",
+          "padding": "4rem 2rem 2rem",
+          "backgroundColor": "#ffffff"
+        },
+        "position": { "x": 0, "y": 11 },
+        "responsive": {}
+      },
+      {
+        "id": "testimonial-stars",
+        "type": "text",
+        "content": "⭐⭐⭐⭐⭐ 4.9/5 from 1,200+ reviews",
+        "style": {
+          "fontSize": "1.5rem",
+          "textAlign": "center",
+          "color": "#fbbf24",
+          "padding": "1rem 2rem"
+        },
+        "position": { "x": 0, "y": 12 },
+        "responsive": {}
+      },
+      {
+        "id": "testimonial-quote",
+        "type": "text",
+        "content": "\"The best headphones I've ever owned. The sound quality is incredible and they're so comfortable I forget I'm wearing them.\" - Sarah M.",
+        "style": {
+          "fontSize": "1.125rem",
+          "fontStyle": "italic",
+          "textAlign": "center",
+          "color": "#4b5563",
+          "padding": "2rem",
+          "maxWidth": "700px",
+          "margin": "0 auto",
+          "backgroundColor": "#f8fafc",
+          "borderRadius": "1rem",
+          "border": "1px solid #e2e8f0"
+        },
+        "position": { "x": 0, "y": 13 },
+        "responsive": {}
+      },
+      {
+        "id": "cta-section",
+        "type": "text",
+        "content": "Ready to Upgrade Your Audio?",
+        "style": {
+          "fontSize": "2.5rem",
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "color": "#ffffff",
+          "padding": "4rem 2rem 2rem",
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+        },
+        "position": { "x": 0, "y": 14 },
+        "responsive": {}
+      },
+      {
+        "id": "cta-text",
+        "type": "text",
+        "content": "Join thousands of satisfied customers. Free shipping on all orders over $200.",
+        "style": {
+          "fontSize": "1.125rem",
+          "textAlign": "center",
+          "color": "#e5e7eb",
+          "padding": "0 2rem 3rem"
+        },
+        "position": { "x": 0, "y": 15 },
+        "responsive": {}
+      },
+      {
+        "id": "final-cta-btn",
+        "type": "button",
+        "content": "Shop Now",
+        "style": {
+          "backgroundColor": "#10b981",
+          "color": "white",
+          "padding": "1rem 3rem",
+          "borderRadius": "0.75rem",
+          "fontSize": "1.25rem",
+          "fontWeight": "600",
+          "border": "none",
+          "cursor": "pointer",
+          "margin": "0 auto 4rem",
+          "display": "block",
+          "boxShadow": "0 10px 15px rgba(0, 0, 0, 0.1)"
+        },
+        "position": { "x": 0, "y": 16 },
+        "responsive": {}
+      },
+      {
+        "id": "footer",
+        "type": "text",
+        "content": "© 2024 Luxe Products. All rights reserved. | Shipping & Returns | Privacy Policy | Support",
+        "style": {
+          "fontSize": "0.875rem",
+          "textAlign": "center",
+          "color": "#6b7280",
+          "padding": "3rem 2rem",
+          "backgroundColor": "#1f2937",
+          "color": "#9ca3af"
+        },
+        "position": { "x": 0, "y": 17 },
         "responsive": {}
       }
     ],
     "settings": {
-      "title": "Premium Product Showcase",
-      "description": "Showcase your products beautifully",
+      "title": "Luxe Products - Premium Showcase",
+      "description": "Premium products for the modern lifestyle",
       "favicon": "/favicon.ico"
     }
   }
